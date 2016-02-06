@@ -1,0 +1,51 @@
+---
+layout: landing_page
+keywords: startups, strategy, consulting, ideas
+owner: IntelliTect
+---
+
+{% assign offerings = site.data.value.offerings %}
+{% assign testimonials = site.data.value.testimonials %}
+{% assign skills = site.data.value.skills %}
+
+<div class="home">
+  <div class="wrapper">
+    <h2>
+      {{ site.data.value.intro.header }}
+    </h2>
+    <p class="description">
+      {{ site.data.value.intro.description }}
+    </p>
+    <div id=offering-container>
+      {% for offering in offerings %}
+        <div id="offering{{ forloop.index }}" class="offerings">
+          <p class="offering-title">{{ offering.name }}</p>
+          {% for value in offering.value %}
+            <p class="offering-value-title">{{ value.title }}</p>
+            <p class="offering-value">{{ value.description }}</p>
+          {% endfor %}
+          <a href="{{ offering.link }}" target="_blank" class="button">More Info</a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <testimonials class="gray">
+    <div class="wrapper">
+      <h2></h2>
+      <ul class="boxlist">
+        {% for testimonial in testimonials %}
+          <li class="testimonial-component">
+            <p class="list-description">"{{ testimonial.testimonial }}"</p>
+            <p class="signature">
+              {{ testimonial.name }}
+            </p>
+            <p class="company">
+              {{ testimonial.position }}, {{ testimonial.company }}
+            </p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </testimonials>
+  {% include contact-form.html %}
+</div>
