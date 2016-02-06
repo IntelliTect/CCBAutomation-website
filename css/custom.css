@@ -6,7 +6,6 @@ html, body{ /* needed to remove horizontal scroll http://stackoverflow.com/quest
 .site-header {/* header.html */
   background-image: url('{{ "/img/background.jpg" | prepend: site.baseurl }}'); /*https://www.pexels.com/photo/night-stars-sky-utility-pole-8999/*/
   background-size:cover;
-  border-top: 8px solid url('{{ "/img/background.jpg" | prepend: site.baseurl }}');
 }
 .site-header .wrapper {
   max-width: none;
@@ -431,8 +430,9 @@ http://tympanus.net/codrops/2013/06/13/creative-button-styles/ (download source)
   color: #828282;
 }
 @media screen and (max-width: 600px){
-  .landing_page .site-nav .page-link {
-    color: white;
+  .site-nav .page-link {
+    color: black;
+    font-weight: 400;
   }
   .site-footer{
     text-align: center;
