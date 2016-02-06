@@ -2,16 +2,16 @@ html, body{ /* needed to remove horizontal scroll http://stackoverflow.com/quest
   overflow-x:hidden;
 }
 .site-header {/* header.html */
-  background-image: url('/img/background.jpg'); /*https://www.pexels.com/photo/night-stars-sky-utility-pole-8999/*/
+  background-image: url('/ccbautomation-website/img/background.jpg'); /*https://www.pexels.com/photo/night-stars-sky-utility-pole-8999/*/
   background-size:cover;
-  border-top: 8px solid url('/img/background.jpg');
+  border-top: 8px solid url('/ccbautomation-website/img/background.jpg');
 }
 .site-header .wrapper {
   max-width: none;
 }
 .landing_page .site-header { /* landing_page.html */
   /*background-image: radial-gradient(circle at top right, #C81200, #E61700);*/
-  background-image: url('/img/background.jpg'); /*https://www.pexels.com/photo/night-stars-sky-utility-pole-8999/*/
+  background-image: url('/ccbautomation-website/img/background.jpg'); /*https://www.pexels.com/photo/night-stars-sky-utility-pole-8999/*/
   background-size:cover;
   background-position: 50% 0;
   border-top: 0px;
