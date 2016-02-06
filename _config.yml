@@ -5,7 +5,7 @@ description: > # this means to ignore newlines
     Take Your CC&B Implementation to the Next Level with Automation
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "127.0.0.1"
-url: "http://ccbautomation.com" # the base hostname & protocol for your site
+url: "http://intellitect.github.io/ccbautomation-website/" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
