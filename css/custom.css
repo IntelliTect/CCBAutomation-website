@@ -263,13 +263,13 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
  }
 #contact-form input {
   border: 1px solid #D1D1D1;
-  font-family: inherit; //needed for firefox
-  font-size: inherit; //needed for firefox
+  font-family: inherit; /*needed for firefox*/
+  font-size: inherit; /*needed for firefox*/
 }
 #contact-form textarea{
   resize: vertical;
-  font-family: inherit; //needed for firefox
-  font-size: inherit; //needed for firefox
+  font-family: inherit; /*needed for firefox*/
+  font-size: inherit; /*needed for firefox*/
 }
 #contact-form button{
   margin: 10px auto;
@@ -284,7 +284,7 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   width: 100%;
 }
 #contact-form-container{
-  position: relative; //this is required so that the overlay gets positioned correctly, not sure why
+  position: relative; /*this is required so that the overlay gets positioned correctly, not sure why*/
 }
 #submit-success {
   display: none;
@@ -446,7 +446,7 @@ http://tympanus.net/codrops/2013/06/13/creative-button-styles/ (download source)
   }
   .testimonial-component {
     width: 40%;
-    margin: 0 1% 20px 1%;
+    margin: 0 6% 20px 6%;
     vertical-align : middle;
   }
   .boxlist li:nth-child(3n+1) { /* we want to do the following the every 3rd item in the list starting with the fouth (i.e. +1)*/
