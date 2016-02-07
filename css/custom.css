@@ -101,12 +101,10 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   font-size: 1.1em;
   font-weight: 600;
   margin-bottom: 0px;
-
 }
 .offering-value{
   margin-bottom: 40px;
 }
-
 #offering-container {
   margin: 60px 0px;
   display: block;
@@ -449,9 +447,6 @@ http://tympanus.net/codrops/2013/06/13/creative-button-styles/ (download source)
     width: 40%;
     margin: 0 6% 20px 6%;
     vertical-align : middle;
-  }
-  .boxlist li:nth-child(3n+1) { /* we want to do the following the every 3rd item in the list starting with the fouth (i.e. +1)*/
-    clear: left;
   }
   #offering1 {
     width: 48%;
