@@ -3,6 +3,14 @@
 html, body{ /* needed to remove horizontal scroll http://stackoverflow.com/questions/14270084/overflow-xhidden-doesnt-prevent-content-from-overflowing-in-mobile-browsers */
   overflow-x:hidden;
 }
+a,a:link,a:visited
+{
+  color: #444A77;
+  text-decoration:none;
+}
+a:hover { /* any nav link (a) that has the class selected will get these attributes */
+  color: #00ACFF;
+}
 .site-header {/* header.html */
   background-image: url('{{ "/img/background.jpg" | prepend: site.baseurl }}'); /*https://www.pexels.com/photo/night-stars-sky-utility-pole-8999/*/
   background-size:cover;
@@ -56,18 +64,10 @@ html, body{ /* needed to remove horizontal scroll http://stackoverflow.com/quest
   font-weight: 300;
   text-align: center;
 }
-.site-nav .page-link {
+.site-header .page-link {
   color: white;
   font-size: 1em;
   font-weight: 300;
-}
-a,a:link,a:visited
-{
-  color: #444A77;
-  text-decoration:none;
-}
-a:hover { /* any nav link (a) that has the class selected will get these attributes */
-  color: #00ACFF;
 }
 /* use on box type lists */
 .boxlist {
