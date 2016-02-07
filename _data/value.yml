@@ -11,7 +11,7 @@ offerings:
       - title: Reduce Time for Creating Tests.
         description: We provide an infrastructure that significantly decreases the amount of time and effort required for creating and maintaining unit tests.
       - title: Increase Test Reliability.
-        description: Generic testing tools not designed for CC&B produce tests that are brittle and unreliable. Our test infrastructure significantly increases the reliability of tests.
+        description: Generic testing tools are not designed for CC&B and produce tests that are brittle and unreliable. Our test infrastructure significantly increases the reliability of tests.
       - title: Design Highly Customized Tests.
         description: Design automated tests for your CC&B system at a very granular level.  [**Give some more detail and a little more explanation.**]
       - title: Increase System Reliability.
@@ -26,7 +26,7 @@ offerings:
       - title: Comply with auditing requirements.
         description: Our ALM solution helps to provide internal controls and reporting methods required by Sarbanes-Oxley and other auditing demands.
       - title: Automated Deployment.
-        description: Our solution allows your to automate your deployment process with a single command and is flexible enough to handle complex and custom deployment needs.
+        description: Our solution allows you to automate your deployment process with a single command and is flexible enough to handle complex and custom deployment needs.
       - title: Promotion.
         description: Because of the size of CC&B, it's not feasible to continuously deploy the entire system. Our ALM solution manages the promotion of changes through your various environments.
       - title: Link Work Items.
