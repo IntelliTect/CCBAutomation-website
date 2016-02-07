@@ -19,6 +19,7 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   max-width: none;
 }
 .landing_page .site-header { /* landing_page.html */
+  background-color: #444A77;
   /*background-image: radial-gradient(circle at top right, #C81200, #E61700);*/
   background-image: url('{{ "/img/background.jpg" | prepend: site.baseurl }}'); /*https://www.pexels.com/photo/night-stars-sky-utility-pole-8999/*/
   background-size:cover;
