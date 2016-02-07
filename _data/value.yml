@@ -9,7 +9,7 @@ offerings:
       - title: Automated Testing Designed for CC&B.
         description: Standard testing frameworks, such as HP UFT or Selenium, aren’t designed for CC&B and are difficult to implement and automate.
       - title: Reduce Time for Creating Tests.
-        description: We provide an infrastructure that significantly decreases the amount of time and effort required for creating and maintaining unit tests.
+        description: We provide an infrastructure that significantly decreases the amount of time and effort required for creating and maintaining automated unit tests.
       - title: Increase Test Reliability.
         description: Generic testing tools are not designed for CC&B and produce tests that are brittle and unreliable. Our test infrastructure significantly increases the reliability of tests.
       - title: Design Highly Customized Tests.
