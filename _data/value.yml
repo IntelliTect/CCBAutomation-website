@@ -8,31 +8,43 @@ offerings:
     value:
       - title: Automated Testing Designed for CC&B.
         description: Standard testing frameworks, such as HP UFT or Selenium, aren’t designed for CC&B and are difficult to implement and automate.
+        icon: icon-cog
       - title: Reduce Time for Creating Tests.
         description: We provide an infrastructure that significantly decreases the amount of time and effort required for creating and maintaining automated unit tests.
+        icon: icon-stopwatch
       - title: Increase Test Reliability.
-        description: Generic testing tools are not designed for CC&B and produce tests that are brittle and unreliable. Our test infrastructure significantly increases the reliability of tests.
+        description: Generic testing tools are not designed for CC&B and produce tests that are brittle and unreliable. Our test harness significantly increases the reliability of tests.
+        icon: icon-target
       - title: Design Highly Customized Tests.
         description: Design automated tests for your CC&B system at a very granular level.  [**Give some more detail and a little more explanation.**]
+        icon: icon-wrench
       - title: Increase System Reliability.
         description: Automated testing significantly decreases the risk of data, billing, or [**xxx**] mistakes and lowers the likelihood of downtime.
-      - title: Reduce the Expertise Required for Testing.
+        icon: icon-shield
+      - title: Reduce the Expertise Required.
         description: Our infrastructure reduces the expertise required for creating and running automated tests. [**Anything else to say to get it to three lines?**]
+        icon: icon-user
   - name: CC&B ALM
     link: /alm/
     value:
       - title: Source Control.
-        description: Source control allows your company to fully manage changes to your CC&B implementation files, including version control and history, and gives you very detailed insight into changes.
+        description: Source control allows your company to manage changes to your CC&B implementation, including version control and history, and provides detailed insight into changes.
+        icon: icon-tree
       - title: Comply with auditing requirements.
         description: Our ALM solution helps to provide internal controls and reporting methods required by Sarbanes-Oxley and other auditing demands.
+        icon: icon-library
       - title: Automated Deployment.
         description: Our solution allows you to automate your deployment process with a single command and is flexible enough to handle complex and custom deployment needs.
+        icon: icon-loop2
       - title: Promotion.
-        description: Because of the size of CC&B, it's not feasible to continuously deploy the entire system. Our ALM solution manages the promotion of changes through your various environments.
+        description: CC&B is too large to continuously deploy the entire system. Our ALM solution manages the promotion of changes through your various environments.
+        icon: icon-upload
       - title: Link Work Items.
-        description: Easily associate work items (i.e. tasks) with changes in the system. This association allows your company to track the origin of changes made as well as who made the change.
+        description: Easily associate changes in the system to work items (i.e. tasks). This association allows your company to track detailed information about each change.
+        icon: icon-link
       - title: Trialing & Dry Runs.
         description: Allows you to run ‘what if’ scenarios when deploying to test changes. [**I think I understood, but I need some help expanding this.**]
+        icon: icon-loop
 
 testimonials:
   - name: Some Guy

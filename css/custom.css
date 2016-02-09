@@ -105,8 +105,16 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   font-weight: 600;
   margin-bottom: 0px;
 }
-.offering-value{
+.offering-value {
   margin-bottom: 30px;
+}
+.offering-icon-container {
+  overflow: hidden;
+}
+.offering-icon {
+  width: 32px;
+	height: 32px;
+	fill: #424242;
 }
 #offering-container {
   margin: 60px 0px;
@@ -472,6 +480,10 @@ http://tympanus.net/codrops/2013/06/13/creative-button-styles/ (download source)
     width: 48%;
     float: right;
     text-align: left;
+  }
+  .offering-item {
+    float: right;
+    width: calc(100% - 50px);
   }
   .testimonial-component {
     width: 40%;
