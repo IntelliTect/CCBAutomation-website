@@ -14,6 +14,11 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
 .site-header {/* header.html */
   background-image: url('{{ "/img/background.jpg" | prepend: site.baseurl }}'); /*https://www.pexels.com/photo/night-stars-sky-utility-pole-8999/*/
   background-size:cover;
+  letter-spacing: 1.2px;
+}
+.site-title {
+  letter-spacing: 1.2px;
+  color: white;
 }
 .site-header .wrapper {
   max-width: none;
@@ -25,6 +30,9 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   background-size:cover;
   background-position: 50% 0;
   border-top: 0px;
+}
+.site-header a, .site-header a:link, .site-header a:visited {
+  color: white;
 }
 .landing_page .description {
   font-size: 1.1em;
@@ -67,7 +75,7 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
 }
 .site-header .page-link {
   color: white;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 300;
 }
 /* use on box type lists */
@@ -452,13 +460,19 @@ http://tympanus.net/codrops/2013/06/13/creative-button-styles/ (download source)
   font-size: 0.8em;
   color: #828282;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 850px){
   h1 {
     text-align: center;
   }
-  .site-nav .page-link {
+  .site-header a, .site-header a:link, .site-header a:visited {
     color: black;
     font-weight: 400;
+  }
+  .site-header .site-title,
+  .site-header .site-title:link,
+  .site-header .site-title:visited {
+    color: white;
+    font-weight: 300;
   }
   .site-footer{
     text-align: center;
