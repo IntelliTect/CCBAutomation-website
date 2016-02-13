@@ -13,6 +13,7 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
 }
 .site-header {/* header.html */
   background-image: url('{{ "/img/background.jpg" | prepend: site.baseurl }}'); /*https://www.pexels.com/photo/night-stars-sky-utility-pole-8999/*/
+  background-position: center center;
   background-size:cover;
   letter-spacing: 1.2px;
 }
@@ -486,6 +487,12 @@ http://tympanus.net/codrops/2013/06/13/creative-button-styles/ (download source)
   /* if the screen is larger than 600 we want to show the offerings in 3 columns */
   .landing_page .site-header {
     padding-bottom: 100px;
+  }
+  a.page-link:hover {
+    border-bottom: 3px solid white;
+  }
+  .landing_page a.page-link:hover {
+    border-bottom: 3px solid white;
   }
   #offering1 {
     width: 48%;
