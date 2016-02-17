@@ -20,6 +20,7 @@ owner: IntelliTect
     {% for offering in offerings %}
       <div id="offering{{ forloop.index }}" class="offerings">
         <p class="offering-title">{{ offering.name }}</p>
+        <p class="offering-elevator-pitch">{{ offering.elevator-pitch }}</p>
         {% for value in offering.value %}
           <div class="offering-icon-container">
             <svg class="offering-icon {{ value.icon }}"><use xlink:href="#{{ value.icon }}"></use></svg>
@@ -29,7 +30,7 @@ owner: IntelliTect
             </div>
           </div>
         {% endfor %}
-        <a href="{{ offering.link }}" target="_blank" class="button">More Info</a>
+        <a href="{{ offering.link }}" target="_blank" class="button">More Features</a>
       </div>
     {% endfor %}
   </div>
