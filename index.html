@@ -5,6 +5,7 @@ owner: IntelliTect
 ---
 
 {% assign offerings = site.data.value.offerings %}
+{% assign offerings-top-x-limit = site.data.value.offerings-top-x-limit %}
 {% assign testimonials = site.data.value.testimonials %}
 {% assign skills = site.data.value.skills %}
 {% include master.svg %}
@@ -21,7 +22,7 @@ owner: IntelliTect
       <div id="offering{{ forloop.index }}" class="offerings">
         <p class="offering-title">{{ offering.name }}</p>
         <p class="offering-elevator-pitch">{{ offering.elevator-pitch }}</p>
-        {% for value in offering.value %}
+        {% for value in offering.value limit: offerings-top-x-limit %}
           <div class="offering-icon-container">
             <svg class="offering-icon {{ value.icon }}"><use xlink:href="#{{ value.icon }}"></use></svg>
             <div class="offering-item">

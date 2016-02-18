@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CC&B Test
-permalink: /test/
+title: CC&B ALM
+permalink: /alm/
 include_in_nav: true
 ---

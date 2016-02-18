@@ -1,5 +1,5 @@
 email: shane@intellitect.com #this is used for contact-form.html (http://formspree.io/)
-header: "Request a Demo"
+header: "Request Additional Info"
 email_placeholder: Your Email Address
 textarea_placeholder: Your message.
 button_text: Send Message
