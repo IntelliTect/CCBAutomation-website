@@ -14,7 +14,7 @@ offerings:
         description: Design and execute CC&B automated test cases using tools specially designed for CC&B, allowing more control and flexibility over your tests.
         icon: icon-cog
       - title: Design Meaningful Tests
-        description: Our automated testing framework was designed based on real-world business requirements, enabling you to development tests that meet your specific needs.
+        description: Our automated testing framework was designed based on real-world business requirements, enabling you to develop tests that meet your specific needs.
         icon: icon-target
   - name: CC&B ALM
     elevator-pitch: Our ALM solution gives you full control over your CC&B development and deployment processes across multiple environments.
