@@ -7,7 +7,10 @@ offerings-top-x-limit: 4
 offerings:
   - name: CC&B Test
     elevator-pitch: Our Test solution increases the reliability and maintainability of CC&B by providing you with a suite of automated regression testing tools.
-    link: /test-harness/
+    link: /test/
+    #main-image: /img/solutions/comparison.png 
+    image1: /img/solutions/before_after.png
+    image2: /img/solutions/test_harness_TestRunning.png
     value:
       - title: Increase System Reliability
         description: Automated testing significantly decreases the risk of system-level and catastrophic failures due to a lack of regression testing.
@@ -37,6 +40,8 @@ offerings:
   - name: CC&B ALM
     elevator-pitch: Our ALM solution gives you full control over your CC&B development and deployment processes across multiple environments.
     link: /alm/
+    image1: /img/solutions/build-succeeded.png
+    image2: /img/solutions/build-log.png
     value:
       - title: Automated Deployment
         description: Our solution allows you to automate your deployment process with a single command and is flexible enough to handle complex and custom deployment needs.

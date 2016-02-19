@@ -126,11 +126,29 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
 }
 .offering-icon-container {
   overflow: hidden;
+  clear: both;
 }
 .offering-icon {
   width: 32px;
 	height: 32px;
 	fill: #424242;
+}
+.solution-elevator-pitch {
+  padding: 20px 40px 60px 40px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.3em;
+}
+.solution-image {
+  margin-bottom: 90px;
+}
+.solution-image-main {
+  margin: 0px auto;
+  margin-bottom: 90px;
+}
+.solutions {
+  margin-bottom: 45px;
 }
 #offering-container {
   margin: 60px 0px;
