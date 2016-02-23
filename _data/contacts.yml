@@ -1,7 +1,7 @@
 site:
   name: CC&B Automation Services
   phone: 646.543.9259
-  email: shane@intellitect.com
+  email: ccb@IntelliTect.com
   twitter_username: IntelliTect
   image: /img/profile-image.png
   image_alt: "IntelliTect"
@@ -13,8 +13,8 @@ site:
 
 shanekercheval:
   name: Shane Kerheval
-  phone: 555.555.5555
-  email: shane.kercheval@gmail.com
+  phone: 646.543.9259
+  email: shane@IntelliTect.com
   twitter_username: shanekercheval
   image: ../img/profile-image.png
   image_alt: "IntelliTect"

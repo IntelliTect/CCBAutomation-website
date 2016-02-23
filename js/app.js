@@ -135,7 +135,7 @@ NOTE: The downside for adding JavaScript is that Google Tag Manager cannot hook 
           },
           dataType: "json",
           success: function() {
-            $("#overlay p").text("Your message was sent. I will reply to '"+replyToEmail+"' as soon as I can.");
+            $("#overlay p").text("Your message was sent. We will respond back to '"+replyToEmail+"' as soon as we can.");
             $overlay.fadeIn();//these needs to go in success? or success/error needs to set message;
             gtmPush('contact-form', 'submit_success', window.location.href, undefined);
           },
