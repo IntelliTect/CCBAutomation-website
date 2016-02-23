@@ -68,14 +68,14 @@ offerings:
         description: Before any deployment, a file system backup will execute automatically, and all change history will be stored on the CC&B system as an audit trail.
         icon: icon-power
 testimonials:
-  - name: Some Guy
-    position: CEO
-    company: Avista
-    testimonial: The CC&B ALM solution provided by IntelliTect has been critical and has saved us one billion dollars. I wouldn't be able to sleep at night without it.
-  - name: Some Guy
-    position: SDET
-    company: Avista
-    testimonial: The CC&B Test solution has saved me countless hours and is a pleasure to work with. If it was a woman, I'd be in love. This is the first time I've ever liked my job.
+  - name: Heidi Smith
+    position: Test Manager
+    company: IntelliTect/Avista Utilities
+    testimonial: Using the automated CC&B build process, I would estimate that I have deployed code no less than a thousand times. It's a reliable and dependable process you can count on. 
+  - name: Sohail Mohammed
+    position: Oracle CC&B/MDM/OUA Technical Architect
+    company: Avista Utilities
+    testimonial: It definitely saves time and increases the accuracy in terms of migration.
 
 faqs:
   - question: Do these solutions handle customized CC&B instances?
