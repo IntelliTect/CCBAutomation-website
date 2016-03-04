@@ -70,15 +70,31 @@ offerings:
 testimonials:
   - name: Heidi Smith
     position: Test Manager
-    company: IntelliTect/Avista Utilities
+    company: Avista Utilities / IntelliTect
     testimonial: Using the automated CC&B build process, I would estimate that I have deployed code no less than a thousand times. It's a reliable and dependable process you can count on. 
-  - name: Sohail Mohammed
-    position: Oracle CC&B/MDM/OUA Technical Architect
-    company: Avista Utilities
-    testimonial: It definitely saves time and increases the accuracy in terms of migration.
+  - name: Timothy Weston
+    position: SDET
+    company: Avista Utilities / IntelliTect
+    testimonial: The CC&B Test Harness allows me to write clear and straightforward automated tests that are reliable and easy to modify.  I never have to worry about the right data being present, regardless of which environment I'm testing against. 
+#  - name: Sohail Mohammed
+#    position: Oracle CC&B/MDM/OUA Technical Architect
+#    company: Avista Utilities
+#    testimonial: It definitely saves time and increases the accuracy in terms of migration.
 
 faqs:
   - question: Do these solutions handle customized CC&B instances?
-    answer: Yes.
+    answer: Yes. Depending on the particular customizations of the CC&B instance, our CC&B solutions can be extended if needed.
   - question: Do these solutions handle large server farms?
     answer: Yes.
+  - question: Which browsers are supported by CC&B Test Harness?
+    answer: CC&B Test Harness supports all major browsers- Internet Explorer, Firefox, Chrome, Safari, and Opera.  Headless browsers are also supported, including headless browsers with JavaScript support.  
+  - question: What is a headless browser?
+    answer: A headless browser is a web browser without a graphical user interface. Headless browsers enable faster execution of test cases because, while they emulate browser behavior, they do not take the time to render the browser to the screen.
+  - question: Does the CC&B Test Harness use test-driven data?
+    answer: The Test Harness supports three types of test data- hard-coded data, resource files or constants classes, and dynamic retrieval from the database.  Retrieving test data from the database at execution time via Linq to SQL increases the reliability of the test cases, regardless of the state of the data in any given test environment.  It ensures the tests will find account or other data that fits the exact prerequisites of each test case.  It also allows the tests themselves to modify data without having to reset it back to its original state.
+  - question: Why are CC&B Test Harness test cases easier to write?
+    answer: The most time-consuming part of automated browser testing is navigating through the various application elements.  With CC&B, the navigational difficulty is increased due to the multiple nested iFrames, various JavaScript events that change the flow of the UI, and cryptic naming conventions of the UI elements.  The CC&B Test Harness contains easy-to-use methods and classes that handle the navigation entirely.  These classes allow the test author to write short, simple lines of code.
+  - question: Why is the CC&B Test Harness superior to OATS?
+    answer: While the Oracle Application Testing Suite (OATS) tool thoroughly tests the CC&B API, it does not test the front-end.  No UI testing or browser rendering occurs with OATS.  When configuration changes are made to CC&B or periodic updates occur, being able to test the application in the way the user interacts with it is important.  The CC&B Test Harness, when using a standard browser, tests the application in the exact way a human would test it.
+  - question: What makes the CC&B Test Harness a better choice than other automated testing tools?
+    answer: It comes down to four things- browser compatibility, dynamic data retrieval, code simplicity, and execution reliability.  Often, “record and playback” automated testing scripts fail when run.  Failure can occur for many reasons, including- running tests against a database with different data, running against a different browser, running on a different machine with a slower network connection, and so on.  The CC&B Test Harness is designed to handle response and timing differences, browser quirks, and ever-changing data in the database.
