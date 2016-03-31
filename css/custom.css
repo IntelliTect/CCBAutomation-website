@@ -12,10 +12,17 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   color: #00ACFF;
 }
 .site-header {/* header.html */
-  background-image: url('{{ "/img/background.jpg" | prepend: site.baseurl }}'); /*https://www.pexels.com/photo/night-stars-sky-utility-pole-8999/*/
+  background-color: #444A77;
+  background:
+      radial-gradient(ellipse,
+          rgba(68, 74, 119, 0.60),
+          rgba(68, 74, 119, 0.60)
+        ),
+      url('{{ "/img/background.jpg" | prepend: site.baseurl }}'); /*https://www.pexels.com/photo/night-stars-sky-utility-pole-8999/*/
   background-position: center center;
   background-size:cover;
   letter-spacing: 1.2px;
+  border-top: 0px;
 }
 .site-title {
   letter-spacing: 1.2px;
@@ -26,8 +33,12 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
 }
 .landing_page .site-header { /* landing_page.html */
   background-color: #444A77;
-  /*background-image: radial-gradient(circle at top right, #C81200, #E61700);*/
-  background-image: url('{{ "/img/background.jpg" | prepend: site.baseurl }}'); /*https://www.pexels.com/photo/night-stars-sky-utility-pole-8999/*/
+  background:
+      radial-gradient(ellipse,
+          rgba(68, 74, 119, 0.60),
+          rgba(68, 74, 119, 0.60)
+        ),
+      url('{{ "/img/background.jpg" | prepend: site.baseurl }}'); /*https://www.pexels.com/photo/night-stars-sky-utility-pole-8999/*/
   background-size:cover;
   background-position: 50% 0;
   border-top: 0px;
